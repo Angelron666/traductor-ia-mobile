@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "expo": "~49.0.0",
-    "expo-speech": "~11.0.3",
+    "expo-speech": "~10.0.3",
     "react": "18.2.0",
     "react-native": "0.72.0",
     "@react-native-voice/voice": "^3.3.0",
@@ -22,4 +22,5 @@
     "@babel/core": "^7.20.0"
   },
   "private": true
+
 }
