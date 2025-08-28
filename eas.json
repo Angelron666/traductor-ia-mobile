@@ -10,12 +10,13 @@
         "environment": "preview"
       },
       "production": {
-        "environment": "production"
+        "autoIncrement": true
       },
       "my-profile": {
         "environment": "production"
     }
   }
 }
+
 
 
