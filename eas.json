@@ -1,5 +1,8 @@
 {
-  "build": {
+  "cli": {
+    "appVersionSource": "remote"
+  },
+     "build": {
     "development": {
       "environment": "development"
     },
@@ -12,4 +15,6 @@
     "my-profile": {
       "environment": "production"
   }
+  }
 }
+
