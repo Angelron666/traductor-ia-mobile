@@ -1,17 +1,17 @@
 {
   "cli": {
-    "version": ">= 2.8.0"
+    "appVersionSource": "remote"
   },
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
+    "production": {
+      "autoIncrement": true
     },
     "preview": {
-      "android": {
-        "buildType": "apk"
-      }
+      "autoIncrement": true
     },
-    "production": {}
+    "development": {
+      "distribution": "internal"
+    }
   }
 }
+
