@@ -2,16 +2,20 @@
   "cli": {
     "appVersionSource": "remote"
   },
-  "build": {
-    "production": {
-      "autoIncrement": true
-    },
-    "preview": {
-      "autoIncrement": true
-    },
-    "development": {
-      "distribution": "internal"
+    "build": {
+      "development": {
+        "environment": "development"
+      },
+      "preview": {
+        "environment": "preview"
+      },
+      "production": {
+        "environment": "production"
+      },
+      "my-profile": {
+        "environment": "production"
     }
   }
 }
+
 
